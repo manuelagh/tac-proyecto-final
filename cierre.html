@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cierre — Manuela</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" role="banner">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__logo">Manuela</a>
+      <nav aria-label="Navegación principal">
+        <ul class="navbar__links">
+          <li><a href="index.html"          class="nav-link">Inicio</a></li>
+          <li><a href="sobre-mi.html"        class="nav-link">Sobre mí</a></li>
+          <li><a href="aprendizajes.html"    class="nav-link">Aprendizajes</a></li>
+          <li><a href="reflexiones.html"     class="nav-link">Reflexiones</a></li>
+          <li><a href="repositorio.html"     class="nav-link">Repositorio</a></li>
+          <li><a href="cierre.html"          class="nav-link">Cierre</a></li>
+        </ul>
+      </nav>
+      <button class="navbar__hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="navbar__drawer">
+    <ul>
+      <li><a href="index.html"          class="nav-link">Inicio</a></li>
+      <li><a href="sobre-mi.html"        class="nav-link">Sobre mí</a></li>
+      <li><a href="aprendizajes.html"    class="nav-link">Aprendizajes</a></li>
+      <li><a href="reflexiones.html"     class="nav-link">Reflexiones</a></li>
+      <li><a href="repositorio.html"     class="nav-link">Repositorio</a></li>
+      <li><a href="cierre.html"          class="nav-link">Cierre</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <section class="bg-muted">
+      <div class="container--text">
+
+        <!-- Encabezado -->
+        <div class="section-header fade-in" style="text-align: center;">
+          <span class="section-label" style="display: block; text-align: center;">Cierre</span>
+          <h2>El siguiente capítulo</h2>
+        </div>
+
+        <!-- Imagen -->
+        <div class="cierre__img-wrap fade-in">
+          <img
+            src="Assets/paris2.jpeg"
+            alt="Torre Eiffel y el Sena, imagen contemplativa"
+            loading="lazy"
+          />
+        </div>
+
+        <!-- Texto -->
+        <div class="cierre__text fade-in">
+          <p>
+            Hay una foto mía en París mirando el Sena. No recuerdo qué estaba pensando en ese
+            momento exacto, pero sí recuerdo la sensación: algo estaba terminando y algo estaba
+            empezando, y los dos sucedían al mismo tiempo.
+          </p>
+          <p>
+            El TAC me devolvió esa sensación. No como un cierre, sino como un punto de pausa real
+            — el primero que me permití en mucho tiempo. Aprendí a ponerle nombre a lo que me frena:
+            Alvin, el miedo a los pasos concretos, la brecha entre las metas grandes y las decisiones
+            pequeñas que las construyen. Aprendí también a reconocer lo que me sostiene: la rutina,
+            la autocrítica que sirve para ajustar y no para quedarse en culpa, el hábito de tomar
+            un día a la vez sin soltar de vista adónde voy.
+          </p>
+          <p>
+            En junio empiezo en Evertec. Es el primer capítulo completamente profesional de mi
+            historia, y llega en un momento en el que ya me conozco lo suficiente para dar el
+            siguiente paso, pero todavía sigo cambiando.
+          </p>
+
+          <p class="cierre__closing">
+            Sigo siendo una mujer en construcción.<br>Y eso ya no me asusta tanto.
+          </p>
+        </div>
+
+        <!-- Navegación entre páginas -->
+        <nav class="page-nav" aria-label="Navegación entre páginas">
+          <a href="repositorio.html" class="page-nav__prev">← Repositorio</a>
+          <a href="index.html" class="page-nav__next">Volver al inicio →</a>
+        </nav>
+
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

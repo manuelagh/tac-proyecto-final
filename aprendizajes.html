@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aprendizajes — Manuela</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" role="banner">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__logo">Manuela</a>
+      <nav aria-label="Navegación principal">
+        <ul class="navbar__links">
+          <li><a href="index.html"          class="nav-link">Inicio</a></li>
+          <li><a href="sobre-mi.html"        class="nav-link">Sobre mí</a></li>
+          <li><a href="aprendizajes.html"    class="nav-link">Aprendizajes</a></li>
+          <li><a href="reflexiones.html"     class="nav-link">Reflexiones</a></li>
+          <li><a href="repositorio.html"     class="nav-link">Repositorio</a></li>
+          <li><a href="cierre.html"          class="nav-link">Cierre</a></li>
+        </ul>
+      </nav>
+      <button class="navbar__hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="navbar__drawer">
+    <ul>
+      <li><a href="index.html"          class="nav-link">Inicio</a></li>
+      <li><a href="sobre-mi.html"        class="nav-link">Sobre mí</a></li>
+      <li><a href="aprendizajes.html"    class="nav-link">Aprendizajes</a></li>
+      <li><a href="reflexiones.html"     class="nav-link">Reflexiones</a></li>
+      <li><a href="repositorio.html"     class="nav-link">Repositorio</a></li>
+      <li><a href="cierre.html"          class="nav-link">Cierre</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <section>
+      <div class="container--narrow">
+
+        <!-- Encabezado -->
+        <div class="section-header fade-in">
+          <span class="section-label">Aprendizajes</span>
+          <h2>Lo que el TAC me pidió ver</h2>
+        </div>
+
+        <!-- BLOQUE 1: Autorretrato fotográfico — foto full-width -->
+        <div class="block-full fade-in">
+          <img
+            src="Assets/autoretrato.jpeg"
+            alt="Cartel del autorretrato fotográfico del TAC"
+            class="block-full__img"
+            loading="lazy"
+          />
+          <p class="photo-caption">El autorretrato: la primera vez que el TAC me puso frente a algo que no quería ver.</p>
+          <div class="block-full__text">
+            <span class="section-label">El autorretrato fotográfico</span>
+            <p>
+              El autorretrato fue la primera vez que el TAC me puso frente a algo que no quería ver.
+              La actividad consistía en construir una imagen de mí misma: quién soy, cómo me veo,
+              hacia dónde voy. Lo que encontré no fue una respuesta clara. Encontré una incomodidad
+              real ante los detalles concretos del futuro — no las metas grandes, sino los pasos
+              específicos para llegar a ellas. Eso me lo dejó claro una foto. Llevo semanas
+              pensando en eso.
+            </p>
+          </div>
+        </div>
+
+        <hr class="divider divider--left" />
+
+        <!-- BLOQUE 2: Cartas — texto izquierda, 3 fotos stacked derecha -->
+        <div class="split-block fade-in">
+          <div class="split-block__text">
+            <span class="section-label">Las cartas a otras personas</span>
+            <p>
+              Las cartas me sacaron de mi propia cabeza y me pusieron frente a frente con relaciones
+              que tenía pendientes. Tuve que agradecer a personas con las que casi no hablaba.
+              Tuve que reconocer diferencias con otras.
+            </p>
+            <p>
+              Fue incómodo escribirlas y más incómodo leerlas en voz alta. Pero algo en ese ejercicio
+              resolvió cosas que yo había dejado en pausa sin darme cuenta.
+            </p>
+            <p>
+              El diario también fue parte de esto: el espacio más constante del curso. Un lugar para
+              escribir sin audiencia, sin que nadie evaluara el resultado. Me enseñó a observarme
+              con más paciencia. No transformó mi forma de pensar de un día para otro, pero me
+              entrenó en algo que no hacía bien: detenerme a registrar lo que estaba sintiendo
+              en vez de seguir corriendo.
+            </p>
+          </div>
+          <div class="split-block__photo">
+            <div class="photo-stack">
+              <div class="photo-rotate-ccw">
+                <img src="Assets/Cartas.jpeg" alt="Hoja de trabajo Inventario de Riqueza Invisible" loading="lazy" />
+              </div>
+              <div class="photo-rotate-ccw">
+                <img src="Assets/cartas2.jpeg" alt="Post-its rosados de gratitud y afirmación" loading="lazy" />
+              </div>
+              <div class="photo-rotate-ccw">
+                <img src="Assets/cartas3.jpeg" alt="Cartas escritas a mano a otras personas" loading="lazy" />
+              </div>
+            </div>
+            <p class="photo-caption">El inventario, los post-its, las cartas. Cada uno resolvió algo distinto.</p>
+          </div>
+        </div>
+
+        <hr class="divider divider--left" />
+
+        <!-- BLOQUE 3: Alvin y los miedos — foto izquierda, texto derecha -->
+        <div class="split-block fade-in">
+          <div class="split-block__photo">
+            <img
+              src="Assets/Diario1.jpeg"
+              alt="Página del diario personal del TAC"
+              class="photo"
+              loading="lazy"
+            />
+            <p class="photo-caption">Una página del diario. El espacio donde aprendí a detenerme.</p>
+          </div>
+          <div class="split-block__text">
+            <span class="section-label">Alvin y el taller de miedos</span>
+            <p>
+              El taller de miedos fue donde conocí a Alvin. Alvin es mi procrastinador interno
+              — y lo nombramos así porque la referencia de <em>Alvin y las ardillas</em> capturó
+              exactamente lo que hace: es ruidoso, insistente, y siempre tiene una razón para
+              no empezar hoy.
+            </p>
+            <p>
+              En ese taller tuve que mirar de frente el patrón que más me frena: sé cuáles son
+              mis metas, tengo claridad sobre lo que quiero lograr, pero Alvin aparece en los
+              pasos concretos y los pospone. El curso me dio herramientas para empezar a vencerlo.
+              No desapareció. Pero ahora lo reconozco cuando llega.
+            </p>
+            <p>
+              Lo que cambió no fue mi autopercepción entera. El TAC no me reveló una persona
+              distinta — me ayudó a ver con más claridad a la que ya era.
+            </p>
+          </div>
+        </div>
+
+        <hr class="divider divider--left" />
+
+        <!-- BLOQUE 4: Arcilla -->
+        <div class="block-full fade-in">
+          <div class="block-full__text" style="margin-top: 0; margin-bottom: 24px;">
+            <span class="section-label">El taller de arcilla</span>
+            <p>
+              El trabajo con arcilla no fue una actividad del TAC, pero pertenece a esta sección
+              porque ilustra algo que el curso me ayudó a sostener: la capacidad de empezar un
+              proyecto desde cero, sostenerlo aunque cueste, y llevarlo hasta el final. La pieza
+              terminada es evidencia de eso.
+            </p>
+          </div>
+          <div class="photo-pair">
+            <img src="Assets/crear-arcilla.jpeg" alt="Proceso del taller de arcilla" loading="lazy" />
+            <img src="Assets/Arcilla-terminada.jpeg" alt="Pieza de arcilla terminada" loading="lazy" />
+          </div>
+          <p class="photo-caption">Del proceso a la pieza terminada. Empezar y sostener.</p>
+        </div>
+
+        <!-- Navegación entre páginas -->
+        <nav class="page-nav" aria-label="Navegación entre páginas">
+          <a href="sobre-mi.html" class="page-nav__prev">← Sobre mí</a>
+          <a href="reflexiones.html" class="page-nav__next">Reflexiones →</a>
+        </nav>
+
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

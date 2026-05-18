@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manuela — Proyecto Final TAC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" role="banner">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__logo">Manuela</a>
+      <nav aria-label="Navegación principal">
+        <ul class="navbar__links">
+          <li><a href="index.html"          class="nav-link">Inicio</a></li>
+          <li><a href="sobre-mi.html"        class="nav-link">Sobre mí</a></li>
+          <li><a href="aprendizajes.html"    class="nav-link">Aprendizajes</a></li>
+          <li><a href="reflexiones.html"     class="nav-link">Reflexiones</a></li>
+          <li><a href="repositorio.html"     class="nav-link">Repositorio</a></li>
+          <li><a href="cierre.html"          class="nav-link">Cierre</a></li>
+        </ul>
+      </nav>
+      <button class="navbar__hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Menú móvil -->
+  <div class="navbar__drawer" aria-hidden="true">
+    <ul>
+      <li><a href="index.html"          class="nav-link">Inicio</a></li>
+      <li><a href="sobre-mi.html"        class="nav-link">Sobre mí</a></li>
+      <li><a href="aprendizajes.html"    class="nav-link">Aprendizajes</a></li>
+      <li><a href="reflexiones.html"     class="nav-link">Reflexiones</a></li>
+      <li><a href="repositorio.html"     class="nav-link">Repositorio</a></li>
+      <li><a href="cierre.html"          class="nav-link">Cierre</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__grid">
+
+          <!-- Texto -->
+          <div class="hero__content fade-in">
+            <span class="section-label">Taller de Autoconocimiento · Proyecto Final</span>
+            <h1 class="hero__name">Manuela</h1>
+            <p class="hero__subtitle">Soy lo que construí lejos de casa.</p>
+            <p class="hero__opening">
+              El Taller de Autoconocimiento fue el espacio que me pidió pausar
+              y mirarme de frente antes de empezar el siguiente capítulo.
+              Esta página es el registro honesto de lo que encontré.
+            </p>
+            <div>
+              <a href="sobre-mi.html" class="btn-primary">Conóceme →</a>
+            </div>
+          </div>
+
+          <!-- Foto -->
+          <div class="hero__photo-wrap fade-in">
+            <img
+              src="Assets/soyamada.jpeg"
+              alt="Manuela en su apartamento sosteniendo flores"
+              class="photo photo--hero"
+              width="450"
+              height="562"
+              loading="eager"
+            />
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

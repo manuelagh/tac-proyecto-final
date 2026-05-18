@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reflexiones — Manuela</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" role="banner">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__logo">Manuela</a>
+      <nav aria-label="Navegación principal">
+        <ul class="navbar__links">
+          <li><a href="index.html"          class="nav-link">Inicio</a></li>
+          <li><a href="sobre-mi.html"        class="nav-link">Sobre mí</a></li>
+          <li><a href="aprendizajes.html"    class="nav-link">Aprendizajes</a></li>
+          <li><a href="reflexiones.html"     class="nav-link">Reflexiones</a></li>
+          <li><a href="repositorio.html"     class="nav-link">Repositorio</a></li>
+          <li><a href="cierre.html"          class="nav-link">Cierre</a></li>
+        </ul>
+      </nav>
+      <button class="navbar__hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="navbar__drawer">
+    <ul>
+      <li><a href="index.html"          class="nav-link">Inicio</a></li>
+      <li><a href="sobre-mi.html"        class="nav-link">Sobre mí</a></li>
+      <li><a href="aprendizajes.html"    class="nav-link">Aprendizajes</a></li>
+      <li><a href="reflexiones.html"     class="nav-link">Reflexiones</a></li>
+      <li><a href="repositorio.html"     class="nav-link">Repositorio</a></li>
+      <li><a href="cierre.html"          class="nav-link">Cierre</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <section class="bg-muted">
+      <div class="container--text">
+
+        <!-- Encabezado -->
+        <div class="section-header fade-in">
+          <span class="section-label">Reflexiones</span>
+          <h2>Lo que encontré adentro</h2>
+        </div>
+
+        <!-- Texto con fotos flotantes -->
+        <div class="reflexiones-text fade-in">
+
+          <img
+            src="Assets/habitos.jpeg"
+            alt="Comida saludable en viaje nocturno: los hábitos que sostienen a Manuela"
+            class="float-photo"
+            loading="lazy"
+          />
+
+          <p>
+            Hay cosas que me sostienen sin que yo lo piense demasiado: hacer ejercicio, leer,
+            tomar un día a la vez. No son rituales perfectos ni rutinas de manual — son los
+            hábitos que aprendí a construir sola, a prueba y error, en cinco años viviendo en
+            Bogotá. Son lo que me ancla cuando todo lo demás se siente incierto.
+          </p>
+
+          <p>
+            También están los pequeños placeres. Un café con leche bien hecho. Unas galletas
+            de La Galiet en la tarde. Pintar algo sin que tenga que quedar bien. Son momentos
+            que no parecen grandes, pero que saben a normalidad cuando el resto del día
+            exige demasiado.
+          </p>
+
+          <img
+            src="Assets/loquemegusta.jpeg"
+            alt="Galletas de La Galiet: los pequeños placeres cotidianos"
+            class="float-photo"
+            loading="lazy"
+          />
+
+          <p>
+            Porque hay algo que el TAC me ayudó a nombrar: le tengo miedo al futuro concreto.
+            No a las metas largas — esas las tengo claras. Lo que me genera ansiedad es la
+            logística de llegar hasta ahí: los pasos específicos, la línea de tiempo real,
+            las decisiones pequeñas que construyen las grandes. Ese miedo no desapareció.
+            Pero ahora sé que está ahí, y nombrarlo ya cambia algo.
+          </p>
+
+          <p>
+            La tensión entre planear y fluir es la que más me define. Soy una persona que
+            procrastina — eso también lo sé —, y sé que procrastinar no es flojera: es una
+            forma de esquivar exactamente lo que más me importa. Aprendí a no esquivarlo todo;
+            aprendí, más bien, a tomar un día a la vez sin soltar de vista adónde voy.
+          </p>
+
+        </div>
+
+        <!-- Navegación entre páginas -->
+        <nav class="page-nav" aria-label="Navegación entre páginas">
+          <a href="aprendizajes.html" class="page-nav__prev">← Aprendizajes</a>
+          <a href="repositorio.html" class="page-nav__next">Repositorio →</a>
+        </nav>
+
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
